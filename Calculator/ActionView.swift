@@ -46,17 +46,19 @@ struct ActionView: View {
             state.storedAction = nil
             break
         case .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .zero:
-            if dotPlaced == false{
-                if let number = Double(button.rawValue){
+            if let number = Double(button.rawValue){
+                if dotPlaced == false{
                     state.appendNumber(number)
+                    
+                }else if dotPlaced == true{
+                    state.appendNumber(number * 0.1)
                 }
             }
-            
 
         case.dot:
-            //Not supported yet
+            //Attempted to Implemet (see case above)
             dotPlaced = true
-            //state.storedNumber ?? Double
+            
             break
         case .percent:
             //Not supported yet
