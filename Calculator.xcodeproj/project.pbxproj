@@ -10,8 +10,6 @@
 		01474CC4255A16C3009E037D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01474CC3255A16C3009E037D /* ContentView.swift */; };
 		01474CC6255A16C9009E037D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01474CC5255A16C9009E037D /* Assets.xcassets */; };
 		01474CC9255A16C9009E037D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01474CC8255A16C9009E037D /* Preview Assets.xcassets */; };
-		01474CD4255A16C9009E037D /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01474CD3255A16C9009E037D /* CalculatorTests.swift */; };
-		01474CDF255A16C9009E037D /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01474CDE255A16C9009E037D /* CalculatorUITests.swift */; };
 		0194DA982561F689007ED265 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194DA972561F689007ED265 /* CalculatorButton.swift */; };
 		0194DA9D2561F8BC007ED265 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194DA9C2561F8BC007ED265 /* ActionView.swift */; };
 		0194DAA82561FD5A007ED265 /* betterCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194DAA72561FD5A007ED265 /* betterCalculatorApp.swift */; };
@@ -35,17 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01474CBE255A16C3009E037D /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01474CBE255A16C3009E037D /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Calculator.app; path = "/Users/davidguerrero/dev/courses/mob1.1/MOB-1.1-Calculator/build/Debug-iphoneos/Calculator.app"; sourceTree = "<absolute>"; };
 		01474CC3255A16C3009E037D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01474CC5255A16C9009E037D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01474CC8255A16C9009E037D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01474CCA255A16C9009E037D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01474CCF255A16C9009E037D /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01474CD3255A16C9009E037D /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
-		01474CD5255A16C9009E037D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01474CDA255A16C9009E037D /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01474CDE255A16C9009E037D /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
-		01474CE0255A16C9009E037D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01474CCF255A16C9009E037D /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CalculatorTests.xctest; path = "/Users/davidguerrero/dev/courses/mob1.1/MOB-1.1-Calculator/build/Debug-iphoneos/CalculatorTests.xctest"; sourceTree = "<absolute>"; };
+		01474CDA255A16C9009E037D /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CalculatorUITests.xctest; path = "/Users/davidguerrero/dev/courses/mob1.1/MOB-1.1-Calculator/build/Debug-iphoneos/CalculatorUITests.xctest"; sourceTree = "<absolute>"; };
 		0194DA972561F689007ED265 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 		0194DA9C2561F8BC007ED265 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
 		0194DAA72561FD5A007ED265 /* betterCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betterCalculatorApp.swift; sourceTree = "<group>"; };
@@ -80,20 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				01474CC0255A16C3009E037D /* Calculator */,
-				01474CD2255A16C9009E037D /* CalculatorTests */,
-				01474CDD255A16C9009E037D /* CalculatorUITests */,
-				01474CBF255A16C3009E037D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		01474CBF255A16C3009E037D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				01474CBE255A16C3009E037D /* Calculator.app */,
-				01474CCF255A16C9009E037D /* CalculatorTests.xctest */,
-				01474CDA255A16C9009E037D /* CalculatorUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		01474CC0255A16C3009E037D /* Calculator */ = {
@@ -116,24 +97,6 @@
 				01474CC8255A16C9009E037D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		01474CD2255A16C9009E037D /* CalculatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				01474CD3255A16C9009E037D /* CalculatorTests.swift */,
-				01474CD5255A16C9009E037D /* Info.plist */,
-			);
-			path = CalculatorTests;
-			sourceTree = "<group>";
-		};
-		01474CDD255A16C9009E037D /* CalculatorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				01474CDE255A16C9009E037D /* CalculatorUITests.swift */,
-				01474CE0255A16C9009E037D /* Info.plist */,
-			);
-			path = CalculatorUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,7 +186,7 @@
 				Base,
 			);
 			mainGroup = 01474CB5255A16C3009E037D;
-			productRefGroup = 01474CBF255A16C3009E037D /* Products */;
+			productRefGroup = 01474CB5255A16C3009E037D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -276,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01474CD4255A16C9009E037D /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01474CDF255A16C9009E037D /* CalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
